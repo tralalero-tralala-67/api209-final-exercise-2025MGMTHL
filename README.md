@@ -8,4 +8,6 @@ Download IPEA files and run together. Users will need to edit directories.
 
 Files are interdependent. All TREND, INEQUALITY, APPENDIX, and PREDICTORS files need to be opened together. The main file in each group loads and creates key variables, dependent files depend on variables created in main file. 
 
+Several rds files with intermediate datasets have been uploaded, but several have been excluded due to file size
+
 Users will need to redefine directories.  
