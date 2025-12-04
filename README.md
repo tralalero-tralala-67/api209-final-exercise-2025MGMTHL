@@ -11,3 +11,6 @@ Files are interdependent. All TREND, INEQUALITY, APPENDIX, and PREDICTORS files 
 Several rds files with intermediate datasets have been uploaded, but several have been excluded due to file size
 
 Users will need to redefine directories.  
+
+# Regression estimates except social covariates table use seperate folder structure
+This is all saved in the project_root path
