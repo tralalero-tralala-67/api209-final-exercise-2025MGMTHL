@@ -1,0 +1,36 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{8}{c}}
+\hline\hline
+                    &\multicolumn{8}{c}{KPI outcomes (levels)}                                                                                                                                      \\
+                    &\multicolumn{1}{c}{KPI 1}&\multicolumn{1}{c}{KPI 2}&\multicolumn{1}{c}{KPI 3}&\multicolumn{1}{c}{KPI 4}&\multicolumn{1}{c}{KPI 5}&\multicolumn{1}{c}{KPI 6}&\multicolumn{1}{c}{KPI 7}&\multicolumn{1}{c}{Composite}\\
+\hline
+Post × Dist (Vaccination)&       0.646\sym{***}&                     &                     &                     &                     &                     &                     &                     \\
+                    &     (0.024)         &                     &                     &                     &                     &                     &                     &                     \\
+[1em]
+Post × Dist (Diabetes)&                     &       0.100\sym{***}&                     &                     &                     &                     &                     &                     \\
+                    &                     &     (0.006)         &                     &                     &                     &                     &                     &                     \\
+[1em]
+Post × Dist (hypertension)&                     &                     &       0.036\sym{***}&                     &                     &                     &                     &                     \\
+                    &                     &                     &     (0.007)         &                     &                     &                     &                     &                     \\
+[1em]
+Post × Dist (HIV/syphilis)&                     &                     &                     &       0.191\sym{***}&                     &                     &                     &                     \\
+                    &                     &                     &                     &     (0.009)         &                     &                     &                     &                     \\
+[1em]
+Post × Dist (Prenatal)&                     &                     &                     &                     &       0.063\sym{***}&                     &                     &                     \\
+                    &                     &                     &                     &                     &     (0.007)         &                     &                     &                     \\
+[1em]
+Post x Distance to dist\_prenatal&                     &                     &                     &                     &                     &       0.161\sym{***}&                     &                     \\
+                    &                     &                     &                     &                     &                     &     (0.008)         &                     &                     \\
+[1em]
+Post × Dist (Pap smear)&                     &                     &                     &                     &                     &                     &      -0.030\sym{***}&                     \\
+                    &                     &                     &                     &                     &                     &                     &     (0.006)         &                     \\
+[1em]
+Post × Dist (composite)&                     &                     &                     &                     &                     &                     &                     &       0.021         \\
+                    &                     &                     &                     &                     &                     &                     &                     &     (0.015)         \\
+\hline
+Observations        &      60,816         &      60,817         &      60,817         &      60,814         &      60,814         &      60,814         &      60,817         &      60,813         \\
+R^2                 &     0.62855         &     0.63784         &     0.75447         &     0.66822         &     0.72258         &     0.62500         &     0.79504         &     0.80772         \\
+\hline\hline
+\end{tabular}
+}
